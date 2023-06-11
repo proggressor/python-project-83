@@ -1,7 +1,5 @@
-### Hexlet tests, linter and CI status:
-[![Actions Status](https://github.com/proggressor/python-project-83/workflows/hexlet-check/badge.svg)](https://github.com/proggressor/python-project-83/actions)
-[![Python CI](https://github.com/proggressor/python-project-83/actions/workflows/actions.yml/badge.svg)](https://github.com/proggressor/python-project-83/actions/workflows/actions.yml)
+# Автоматические тесты
 
-### Codeclimat: Maintainability and Code coverage
-[![Maintainability](https://api.codeclimate.com/v1/badges/8a0dbb9e36689b9d55d1/maintainability)](https://codeclimate.com/github/proggressor/python-project-83/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/8a0dbb9e36689b9d55d1/test_coverage)](https://codeclimate.com/github/proggressor/python-project-83/test_coverage)
+После завершения всех шагов в проекте, вам станут доступны автоматические тесты. Тесты запускаются на каждый коммит - после завершения всех заданий в интерфейсе Хекслета, сделайте коммит, и тесты заработают автоматически.
+
+Файл hexlet-check.yml отвечает за запуск этих тестов - не удаляйте этот файл, не редактируйте его и не переименовывайте репозиторий.

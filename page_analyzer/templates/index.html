@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анализатор страниц</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <header class="bg-light">
+        <nav class="container py-3">
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="/">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Проанализированные сайты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container my-5">
+        <section>
+            <h1 class="mb-4">Анализатор страниц</h1>
+            <form>
+                <div class="mb-0">
+                    <label for="url-input" class="form-label">Бесплатная проверка сайтов на SEO-пригодность</label>
+                </div>
+                <div class="d-flex justify-content-left mb-3">
+                    <div class="form-outline me-3" style="width: 30rem">
+                        <input type="url" id="url-input" class="form-control" name="url-input" placeholder="https://example.com" value="{{ url }}">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Проверить</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="bg-light py-3 fixed-bottom">
+        <div class="container text-center">
+            <small>2023, <a href="https://github.com/proggressor">Никита Воробьёв</a></small>
+        </div>
+    </footer>
+    <!-- Подключение скриптов Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
